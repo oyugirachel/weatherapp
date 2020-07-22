@@ -1,0 +1,31 @@
+<html><head> 
+  <title></title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+  <script type="text/javascript"> function TimerSwitch(pic) { TimerRunning=true; var timer = setTimeout(function() { SwitchPic(pic) }, 4000); } function SwitchPic(pic) { pic.src = "https://i.postimg.cc/mkrFb3YV/images-6.jpg"; } </script>
+  <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  
+ </head> 
+ <body> 
+  <section class="top-banner"> 
+   <div class="container"> 
+    <h1 class="heading">Simple Weather App</h1> 
+    <form> 
+     <input type="text" placeholder="Search for a city" autofocus=""> 
+     <button type="submit">SUBMIT</button> 
+     <span class="msg"></span> 
+    </form> 
+   </div> 
+  </section> 
+  <section class="ajax-section"> 
+   <div class="container"> 
+    <ul class="cities"></ul> 
+   </div> 
+  </section> 
+  <footer class="page-footer"> 
+   <div class="container"> 
+     © 2020 Oyugi 
+     </div>
+  </footer> 
+ <script src="js/index.js"></script>
+</body></html>
